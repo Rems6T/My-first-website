@@ -99,3 +99,117 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.selectedEffectsSummary {
+  margin-bottom: 24px;
+}
+
+.selectedEffectsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.selectedEffectCard {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.emptyState {
+  color: #94a3b8;
+  margin-top: 10px;
+}
+
+.effectMeta {
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 6px 0 8px 0;
+}
+
+.catalogDivider {
+  height: 1px;
+  background: #334155;
+  margin: 28px 0;
+}
+
+.lowerSectionHeader {
+  margin-bottom: 16px;
+}
+
+.compactCatalogList {
+  margin-top: 8px;
+}
+
+.compactEffectCard {
+  padding: 16px;
+}
+
+.effectBadges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.navbarTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f8fafc;
+}
+
+.navbarLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.navButton {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.navButton:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.navButton.active {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.effectToggle {
+  margin-top: 8px;
+  background: transparent;
+  border: none;
+  color: #60a5fa;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.effectToggle:hover {
+  text-decoration: underline;
+}
+.effectDescription {
+  white-space: pre-line;
+}
+.effectItemDisabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}

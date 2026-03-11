@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Annihilation",
+    "book": "Légende",
+    "summary": "Dégâts = maximum des dés contre les salopards.\n\nFonctionne sur toutes les cibles touchées par Dispersion se cumule avec Oblitération.",
+    "effect": "Contre un ennemi de type salopard, l’arme inflige toujours le résultat maximal des dés de dégâts, comme si chacun des dés avait fait 6. Les dés ne sont simplement pas lancés.\n\nSi l’arme possède l’effet dispersion, chaque cible adverse/de type salopard touchée subit le maximum de dégâts.\n\nCeci se cumule avec Oblitération si plusieurs cibles sont visées par la même attaque."
+  },
+  {
+    "name": "Anti-Anathème",
+    "book": "Base",
+    "summary": "Ignore Bouclier et Chair exceptionnelle de l’Anathème.",
+    "effect": "L’arme ignore purement et simplement la valeur de bouclier et de Chair exceptionnelle (qu’elle soit majeure ou mineure) de la créature de l’Anathème prise pour cible.\n\nLes PA, puis la santé de la cible sont directement touchés.\n\nLorsqu’une arme de ce type touche une bande de créatures de l’Anathème, ses scores de bouclier et de Chair exceptionnelle sont ignorés."
+  },
+  {
+    "name": "Anti-émeute",
+    "book": "Intelligent",
+    "summary": "Ajoute DEX aux dégâts/violence.",
+    "effect": "Lorsque l’arme est utilisée, son utilisateur ajoute sa caractéristique Dextérité (+1 point de dégâts par overdrive) lorsqu’il détermine la violence, en plus des autres caractéristiques déjà incluses.\n\nPour un PNJ, on utilise Masque divisé par 2, arrondi à l’entier supérieur."
+  },
+  {
+    "name": "Anti-véhicule",
+    "book": "Base",
+    "summary": "Ignore la règle 10 dégâts = 1 dégât contre : véhicules, colosses.",
+    "effect": "Les armes possédant cet effet sont conçues pour détruire les véhicules, les blindés et abattre les ennemis de type colosse.\n\nLorsque l’arme tire sur un véhicule ou un colosse, elle inflige ses dégâts normaux et n’a pas besoin d’infliger des tranches de 10 points de dégâts pour en infliger 1 à ces énormes ennemis."
+  },
+  {
+    "name": "Artillerie",
+    "book": "Base",
+    "summary": "Si la cible est désignée ignore : portée, ligne de vue, couvert.\n\nFonctionne avec Désignation",
+    "effect": "Si la cible a préalablement été désignée, l’arme peut tirer sans les malus de portée et sans ligne de vue.\n\nIl faut quand même une ligne de tir direct, mais la cible ne bénéficie d’aucun bonus de couvert.\n\nAttention, il faut que la munition puisse atteindre la cible d’une manière ou d’une autre et qu’un test de tir soit effectué. Une cible préalablement désignée est toujours atteignable, quelle que soit la distance et le « couvert », sans avoir besoin de ligne de tir dégagée."
+  },
+  {
+    "name": "Assassin 2",
+    "book": "Base",
+    "summary": "2D6 dégâts en attaque surprise.",
+    "effect": "Ajoute 2D6 aux dégâts lors des attaques surprises."
+  },
+  {
+    "name": "Assassin 4",
+    "book": "Base",
+    "summary": "4D6 dégâts en attaque surprise.",
+    "effect": "Ajoute 4D6 aux dégâts lors des attaques surprises."
+  },
+  {
+    "name": "Assistance à l'attaque",
+    "book": "Base",
+    "summary": "Chaque réussite excédentaire = +1 dégât.",
+    "effect": "Lorsqu’un jet pour toucher est effectué avec cette arme, chaque réussite excédentaire au-dessus du score de réaction de la cible, dans le cas d’un tir, ou de défense, dans le cas d’une attaque au contact, permet de lui infliger 1 point de dégât supplémentaire.\n\nDans le cas d’une bande, cela ajoute 1 point de violence supplémentaire par réussite excédentaire."
+  },
+  {
+    "name": "Barrage 2",
+    "book": "Base",
+    "summary": "−2 Défense, -2 Réaction. Durée : 1 tour.\n\nCumulable avec d'autres Barrage.",
+    "effect": "Au lieu de faire une attaque, le chevalier peut décider, au prix de son action de combat, de diminuer la défense et la réaction de la bande ou du PNJ ciblé d’un nombre de points égal à 2 jusqu’au début de son prochain tour.\n\nL’effet s’applique automatiquement et permet ainsi à ses alliés de toucher plus facilement.\n\nAucun autre effet, et aucun dégât de l’arme ne s’applique. Plusieurs effets barrage peuvent s’appliquer sur une même cible et se cumulent. Mais attention, l’effet barrage infligé par l’arme d’un PJ prend fin au début de son tour de jeu suivant."
+  },
+  {
+    "name": "Barrage 4",
+    "book": "Base",
+    "summary": "−4 Défense, -4 Réaction. Durée : 1 tour.\n\nCumulable avec d'autres Barrage.",
+    "effect": "Au lieu de faire une attaque, le chevalier peut décider, au prix de son action de combat, de diminuer la défense et la réaction de la bande ou du PNJ ciblé d’un nombre de points égal à 4 jusqu’au début de son prochain tour.\n\nL’effet s’applique automatiquement et permet ainsi à ses alliés de toucher plus facilement.\n\nAucun autre effet, et aucun dégât de l’arme ne s’applique. Plusieurs effets barrage peuvent s’appliquer sur une même cible et se cumulent. Mais attention, l’effet barrage infligé par l’arme d’un PJ prend fin au début de son tour de jeu suivant."
+  },
+  {
+    "name": "Barrage 6",
+    "book": "Base",
+    "summary": "−6 Défense, -6 Réaction. Durée : 1 tour.\n\nCumulable avec d'autres Barrage.",
+    "effect": "Au lieu de faire une attaque, le chevalier peut décider, au prix de son action de combat, de diminuer la défense et la réaction de la bande ou du PNJ ciblé d’un nombre de points égal à 6 jusqu’au début de son prochain tour.\n\nL’effet s’applique automatiquement et permet ainsi à ses alliés de toucher plus facilement.\n\nAucun autre effet, et aucun dégât de l’arme ne s’applique. Plusieurs effets barrage peuvent s’appliquer sur une même cible et se cumulent. Mais attention, l’effet barrage infligé par l’arme d’un PJ prend fin au début de son tour de jeu suivant."
+  },
+  {
+    "name": "Barrage 8",
+    "book": "Base",
+    "summary": "−8 Défense, -8 Réaction. Durée : 1 tour.\n\nCumulable avec d'autres Barrage.",
+    "effect": "Au lieu de faire une attaque, le chevalier peut décider, au prix de son action de combat, de diminuer la défense et la réaction de la bande ou du PNJ ciblé d’un nombre de points égal à 8 jusqu’au début de son prochain tour.\n\nL’effet s’applique automatiquement et permet ainsi à ses alliés de toucher plus facilement.\n\nAucun autre effet, et aucun dégât de l’arme ne s’applique. Plusieurs effets barrage peuvent s’appliquer sur une même cible et se cumulent. Mais attention, l’effet barrage infligé par l’arme d’un PJ prend fin au début de son tour de jeu suivant."
+  },
+  {
+    "name": "Cadence 2",
+    "book": "Base",
+    "summary": "Peut attaquer 2 cibles.",
+    "effect": "L’arme est très rapide et peut cibler 2 adversaires par action de combat au lieu d’un seul.\n\nUne attaque doit être réalisée pour chacune des cibles, avec 3 dés de malus.\n\nChacune des cibles ne peut être distante de plus de 2 mètres."
+  },
+  {
+    "name": "Cadence 3",
+    "book": "Base",
+    "summary": "Peut attaquer 3 cibles.",
+    "effect": "L’arme est très rapide et peut cibler 3 adversaires par action de combat au lieu d’un seul.\n\nUne attaque doit être réalisée pour chacune des cibles, avec 3 dés de malus.\n\nChacune des cibles ne peut être distante de plus de 2 mètres."
+  },
+  {
+    "name": "Cadence 4",
+    "book": "Légende",
+    "summary": "Peut attaquer 4 cibles.",
+    "effect": "L’arme est très rapide et peut cibler 4 adversaires par action de combat au lieu d’un seul.\n\nUne attaque doit être réalisée pour chacune des cibles, avec 3 dés de malus.\n\nChacune des cibles ne peut être distante de plus de 2 mètres."
+  },
+  {
+    "name": "Choc 2",
+    "book": "Base",
+    "summary": "La cible perd 2 actions.\n\nInteractions : ne se cumule pas avec lui-même incompatible avec Parasitage.",
+    "effect": "Si le jet pour toucher avec l’arme est supérieur au score de l’aspect Chair, divisé par 2 pour un PNJ, de la cible, celle-ci perd ses 2 prochaines actions.\n\nCet effet ne fonctionne pas contre les bandes et ne peut pas se cumuler alors que la cible est déjà sous l’effet choc.\n\nDans certaines circonstances, l’effet choc peut être considéré comme automatique et ne prend donc pas en compte le score de l’aspect Chair. Lorsque l’effet choc est censé s’appliquer automatiquement, il faut tout de même que le personnage touche sa cible. En revanche, son résultat n’a pas besoin d’égaler l’aspect Chair divisé par deux de la cible pour que l’effet fonctionne. En fonction des circonstances, le MJ peut décider qu’un personnage sous l’effet choc subit un malus de 2 à sa réaction et à sa défense. L’effet ne se cumule pas avec parasitage X."
+  },
+  {
+    "name": "Choc 4",
+    "book": "Base",
+    "summary": "La cible perd 4 actions.\n\nInteractions : ne se cumule pas avec lui-même incompatible avec Parasitage.",
+    "effect": "Si le jet pour toucher avec l’arme est supérieur au score de l’aspect Chair, divisé par 2 pour un PNJ, de la cible, celle-ci perd ses 4 prochaines actions.\n\nCet effet ne fonctionne pas contre les bandes et ne peut pas se cumuler alors que la cible est déjà sous l’effet choc.\n\nDans certaines circonstances, l’effet choc peut être considéré comme automatique et ne prend donc pas en compte le score de l’aspect Chair. Lorsque l’effet choc est censé s’appliquer automatiquement, il faut tout de même que le personnage touche sa cible. En revanche, son résultat n’a pas besoin d’égaler l’aspect Chair divisé par deux de la cible pour que l’effet fonctionne. En fonction des circonstances, le MJ peut décider qu’un personnage sous l’effet choc subit un malus de 2 à sa réaction et à sa défense. L’effet ne se cumule pas avec parasitage X."
+  },
+  {
+    "name": "Choc 6",
+    "book": "Base",
+    "summary": "La cible perd 6 actions.\n\nInteractions : ne se cumule pas avec lui-même incompatible avec Parasitage.",
+    "effect": "Si le jet pour toucher avec l’arme est supérieur au score de l’aspect Chair, divisé par 2 pour un PNJ, de la cible, celle-ci perd ses 6 prochaines actions.\n\nCet effet ne fonctionne pas contre les bandes et ne peut pas se cumuler alors que la cible est déjà sous l’effet choc.\n\nDans certaines circonstances, l’effet choc peut être considéré comme automatique et ne prend donc pas en compte le score de l’aspect Chair. Lorsque l’effet choc est censé s’appliquer automatiquement, il faut tout de même que le personnage touche sa cible. En revanche, son résultat n’a pas besoin d’égaler l’aspect Chair divisé par deux de la cible pour que l’effet fonctionne. En fonction des circonstances, le MJ peut décider qu’un personnage sous l’effet choc subit un malus de 2 à sa réaction et à sa défense. L’effet ne se cumule pas avec parasitage X."
+  },
+  {
+    "name": "Défense 2",
+    "book": "Base",
+    "summary": "+2 Défense.",
+    "effect": "L’utilisateur reçoit un modificateur de défense, 2 représentant cette valeur, tant qu’il utilise cette arme ou module.\n\nLes modificateurs reçus peuvent se cumuler tant que le personnage peut recevoir l’effet."
+  },
+  {
+    "name": "Défense 3",
+    "book": "Base",
+    "summary": "+3 Défense.",
+    "effect": "L’utilisateur reçoit un modificateur de défense, 3 représentant cette valeur, tant qu’il utilise cette arme ou module.\n\nLes modificateurs reçus peuvent se cumuler tant que le personnage peut recevoir l’effet."
+  },
+  {
+    "name": "Défense 4",
+    "book": "Base",
+    "summary": "+4 Défense.",
+    "effect": "L’utilisateur reçoit un modificateur de défense, 4 représentant cette valeur, tant qu’il utilise cette arme ou module.\n\nLes modificateurs reçus peuvent se cumuler tant que le personnage peut recevoir l’effet."
+  },
+  {
+    "name": "Dispersion 3",
+    "book": "Base",
+    "summary": "Peut toucher 3 ennemis proches.\n\nInteractions : applique tous les effets de l’arme.\n\nFonctionne avec : Annihilation, Oblitération, Meurtrier, Destructeur.",
+    "effect": "L’arme peut toucher plusieurs ennemis et ses dégâts peuvent donc s’appliquer à plusieurs, du moment que ces ennemis sont à moins de deux mètres les uns des autres.\n\n3 représente le nombre d’ennemis que l’arme peut toucher dans une même action. Un seul jet d’attaque est à effectuer contre un seul ennemi. Les autres ennemis proches subissent automatiquement les dégâts et les autres effets que dispersion, à condition que le résultat du test d’attaque dépasse leur score d’opposition.\n\nTypiquement, les lance-flammes ou les armes explosives infligent cet effet. Cet effet n’affecte pas les bandes contre lesquelles seule la violence peut s’appliquer. Attention : si l’effet est utilisé contre des ennemis au contact avec un autre PJ, ce dernier subit aussi les dégâts de la dispersion."
+  },
+  {
+    "name": "Dispersion 6",
+    "book": "Base",
+    "summary": "Peut toucher 6 ennemis proches.\n\nInteractions : applique tous les effets de l’arme.\n\nFonctionne avec : Annihilation, Oblitération, Meurtrier, Destructeur.",
+    "effect": "L’arme peut toucher plusieurs ennemis et ses dégâts peuvent donc s’appliquer à plusieurs, du moment que ces ennemis sont à moins de deux mètres les uns des autres.\n\n6 représente le nombre d’ennemis que l’arme peut toucher dans une même action. Un seul jet d’attaque est à effectuer contre un seul ennemi. Les autres ennemis proches subissent automatiquement les dégâts et les autres effets que dispersion, à condition que le résultat du test d’attaque dépasse leur score d’opposition.\n\nTypiquement, les lance-flammes ou les armes explosives infligent cet effet. Cet effet n’affecte pas les bandes contre lesquelles seule la violence peut s’appliquer. Attention : si l’effet est utilisé contre des ennemis au contact avec un autre PJ, ce dernier subit aussi les dégâts de la dispersion."
+  },
+  {
+    "name": "Dégâts continus 3",
+    "book": "Base",
+    "summary": "Inflige 3 dégâts par tour pendant 1D6 tours.\n\nIgnore : CdF, Bouclier.\n\nNe se cumule pas avec lui-même.",
+    "effect": "L’arme inflige 3 points de dégâts à chaque tour durant 1D6 tours.\n\nLes dégâts sont subis par la cible à chacun de ses tours de jeu et ignorent les éventuels scores de CdF ou de bouclier.\n\nAu regard de la technologie utilisée, l’effet ne peut se stopper que si la cible reçoit les soins appropriés ou s’il se termine de lui-même. Typiquement, cet effet se retrouve sur les armes causant des brûlures. Cet effet ne peut être cumulé sur une même créature tant que l’effet est déjà présent au moins une fois."
+  },
+  {
+    "name": "Dégâts continus 6",
+    "book": "Base",
+    "summary": "Inflige 6 dégâts par tour pendant 1D6 tours.\n\nIgnore : CdF, Bouclier.\n\nNe se cumule pas avec lui-même.",
+    "effect": "L’arme inflige 6 points de dégâts à chaque tour durant 1D6 tours.\n\nLes dégâts sont subis par la cible à chacun de ses tours de jeu et ignorent les éventuels scores de CdF ou de bouclier.\n\nAu regard de la technologie utilisée, l’effet ne peut se stopper que si la cible reçoit les soins appropriés ou s’il se termine de lui-même. Typiquement, cet effet se retrouve sur les armes causant des brûlures. Cet effet ne peut être cumulé sur une même créature tant que l’effet est déjà présent au moins une fois."
+  },
+  {
+    "name": "Démoralisant",
+    "book": "Base",
+    "summary": "Réduit le débordement de 2 pour le tour en cours contre une bande d’humains.\n\nNe réduit pas davantage le malus si appliqué plusieurs fois : augmente la durée à la place.",
+    "effect": "Avec une attaque réussie, l’arme enlève 2 points au score de débordement que les bandes composées d’humains infligent, avant calcul des dégâts effectifs.\n\nLes dégâts effectifs du tour sont donc égaux à débordement moins 2, multiplié par le nombre de tours écoulés à ce tour. Autrement dit, démoralisant réduit le débordement pour le tour en cours, et uniquement le tour en cours.\n\nPrécision : si l’effet démoralisant est appliqué plusieurs fois, cela se cumule en ajoutant un tour de durée et non pas en soustrayant des points supplémentaires au débordement de la bande ciblée."
+  },
+  {
+    "name": "Désignation",
+    "book": "Base",
+    "summary": "Cible marquée : 1 réussite automatique pour toucher, ignore échec critique sur la cible.\n\nInteractions : permet Artillerie",
+    "effect": "L’arme peut désigner une cible, une seule cible et pas une bande, une fois par tour.\n\nSon utilisateur et ses alliés reçoivent un bonus de 1 réussite automatique pour toucher la cible et ignorent toujours les éventuels échecs critiques qu’ils pourraient subir lorsqu’ils tentent de la toucher.\n\nDésigner une cible ne coûte pas d’action. Il n’y a aucun test à effectuer pour désigner une cible et la portée de la désignation est celle de l’arme utilisée. La cible demeure désignée durant toute la scène ou toute la phase de conflit. Une fois désignée, l’armure va suivre les mouvements et les bruits de la cible et représenter sa position, ce qui permet au chevalier de lui tirer dessus avec une arme disposant de l’effet artillerie notamment, ou d’utiliser automatiquement tout effet venant de ses éventuelles visions alternatives. Tant que la signature de la cible reste visible par la méta-armure, la cible reste désignée. Attention : l’effet ne peut être cumulé sur une même cible."
+  },
+  {
+    "name": "Destructeur",
+    "book": "Base",
+    "summary": "2D6 dégâts aux PA.",
+    "effect": "Lorsque les dégâts impactent les points d’armure de la cible, si elle a des PA, on ajoute 2D6 au total de dégâts.\n\nSi un seul point de dégâts passe le bouclier et le CdF de la cible, l’effet est appliqué."
+  },
+  {
+    "name": "En chaîne",
+    "book": "Base",
+    "summary": "Pour 3PE, nouvelle attaque si la cible est éliminée.\n\nInteraction : peut se déclencher plusieurs fois dans le même tour.",
+    "effect": "Lorsque le PJ utilisant cette arme réussit à éliminer, pas forcément à tuer, un hostile ou un salopard, il peut effectuer au prix de 3 PE, au même tour et à la même initiative, une autre attaque sur un autre hostile ou un autre salopard qui se trouve à portée de son arme.\n\nUn test pour toucher est de nouveau nécessaire. Si cette deuxième attaque élimine la cible, l’effet peut s’appliquer une nouvelle fois et ainsi de suite.\n\nLe coût en énergie intervient en plus de l’éventuel coût en énergie de l’arme. Chaque nouvelle attaque doit donner lieu à une dépense d’énergie en conséquence. Dans le cas où plusieurs ennemis sont éliminés en même temps, l’effet en chaîne ne s’applique qu’une seule fois."
+  },
+  {
+    "name": "Espérance",
+    "book": "2038",
+    "summary": "Peut remplacer les dégâts contre un désespéré pour lui faire tenter un test de sortie du désespoir.\n\nChaque nouvelle application sur la même cible réduit la difficulté de 1.\n\nContre une bande de désespérés, fait baisser la cohésion.\n\nSi la cohésion tombe à 0, la bande reprend ses esprits.",
+    "effect": "Contre des désespérés, l’équipement est extrêmement puissant. S’il le veut, un PJ peut décider d’échanger les dégâts qu’il devrait infliger contre l’application de l’effet espérance.\n\nL’arme, plutôt que d’infliger des dégâts, traverse alors le corps du désespéré, arrachant une partie de son désespoir. Chaque PNJ désespéré touché par l’attaque peut alors effectuer un test de Bête difficulté ardu (5), ou Hargne combo Sang-Froid dans le cas d’un PJ, pour combattre le désespoir. Chaque attaque supplémentaire infligée par l’équipement à un même désespéré et appliquant l’effet espérance fait baisser le niveau de difficulté du test de 1.\n\nSi le désespéré réussit son test, alors il a réussi à vaincre le désespoir et n’est plus un ennemi. Il peut se joindre aux chevaliers ou rester terrorisé par ce qu’il a commis ou par ce qui lui est arrivé, au choix du MJ. Contre une bande de désespérés, on considère que l’équipement fait simplement baisser sa cohésion. Si le personnage utilisant un équipement avec l’effet espérance a infligé assez de violence à une bande pour qu’elle tombe à 0 point de cohésion, les désespérés qui la composent reprennent espoir et retrouvent simplement leurs esprits. Contre les autres types d’ennemis, les équipements possédant l’effet espérance infligent des dégâts et de la violence de manière normale."
+  },
+  {
+    "name": "Fureur",
+    "book": "Base",
+    "summary": "4D6 violence contre bandes Chair ≥ 10.",
+    "effect": "Lorsque l’arme est utilisée contre une bande avec un score d’aspect Chair de 10 ou plus, la violence de l’arme est augmentée de 4D6."
+  },
+  {
+    "name": "Ignore armure",
+    "book": "Base",
+    "summary": "Ignore l'armure.",
+    "effect": "L’arme ignore purement et simplement la valeur de points d’armure d’un adversaire.\n\nLa santé de la cible est directement touchée si les dégâts passent le CdF ou le bouclier."
+  },
+  {
+    "name": "Ignore CdF",
+    "book": "Base",
+    "summary": "Ignore le champ de force.",
+    "effect": "L’arme ignore purement et simplement le champ de force d’un adversaire.\n\nLes PS de la cible sont directement touchés si les dégâts passent les PA ou le bouclier."
+  },
+  {
+    "name": "Jumelé (akimbo)",
+    "book": "Base",
+    "summary": "Maniement de 2 armes (une par main).\n\nMalus tir double : 3 dés → 1 dé.",
+    "effect": "Lorsqu’on utilise deux exemplaires de cette arme en style akimbo, le malus est diminué de 2.\n\nOn passe donc à 1 dé de malus au lieu de 3."
+  },
+  {
+    "name": "Jumelé (ambidextrie)",
+    "book": "Base",
+    "summary": "Maniement arme à 2 mains.\n\nMalus tir double : 3 dés → 1 dé.",
+    "effect": "Lorsqu’on utilise deux armes disposant de cet effet en style ambidextre, le malus est diminué de 2.\n\nOn passe donc à 1 dé de malus au lieu de 3."
+  },
+  {
+    "name": "Lesté",
+    "book": "Base",
+    "summary": "Ajoute FOR ×2 aux dégâts.",
+    "effect": "Lorsque l’arme est utilisée, son utilisateur ajoute le score de la caractéristique Force multipliée par deux lorsqu’il détermine les dégâts, plutôt que sa Force seule.\n\nPour un PNJ, on utilise Chair complet au lieu de Chair divisé par 2.\n\nSeuls les PJ ayant un score de Force égal ou supérieur à 4 ou possédant un overdrive de Force peuvent utiliser une arme avec un tel effet."
+  },
+  {
+    "name": "Lumière 2",
+    "book": "Base",
+    "summary": "Sur une cible de l’Anathème : −2 Défense / −2 Réaction jusqu’à la fin du prochain tour du PJ.\n\nNe se cumule pas sur une même cible.",
+    "effect": "Lorsque l’arme frappe une créature de l’Anathème ou une bande de l’Anathème, ses scores de défense et de réaction sont réduits jusqu’à la fin du prochain tour du PJ qui a infligé l’effet lumière.\n\n2 représente cette valeur.\n\nCet effet ne peut pas se cumuler sur une même cible."
+  },
+  {
+    "name": "Lumière 4",
+    "book": "Base",
+    "summary": "Sur une cible de l’Anathème : −4 Défense / −4 Réaction jusqu’à la fin du prochain tour du PJ.\n\nNe se cumule pas sur une même cible.",
+    "effect": "Lorsque l’arme frappe une créature de l’Anathème ou une bande de l’Anathème, ses scores de défense et de réaction sont réduits jusqu’à la fin du prochain tour du PJ qui a infligé l’effet lumière.\n\n4 représente cette valeur.\n\nCet effet ne peut pas se cumuler sur une même cible."
+  },
+  {
+    "name": "Lumière 6",
+    "book": "Base",
+    "summary": "Sur une cible de l’Anathème : −6 Défense / −6 Réaction jusqu’à la fin du prochain tour du PJ.\n\nNe se cumule pas sur une même cible.",
+    "effect": "Lorsque l’arme frappe une créature de l’Anathème ou une bande de l’Anathème, ses scores de défense et de réaction sont réduits jusqu’à la fin du prochain tour du PJ qui a infligé l’effet lumière.\n\n6 représente cette valeur.\n\nCet effet ne peut pas se cumuler sur une même cible."
+  },
+  {
+    "name": "Meurtrier",
+    "book": "Base",
+    "summary": "2D6 dégâts aux PS.",
+    "effect": "Lorsque les dégâts impactent la santé de la cible, on ajoute 2D6 au total des dégâts.\n\nSi un seul point de dégâts passe l’armure, le bouclier et le CdF de la cible, l’effet meurtrier est appliqué."
+  },
+  {
+    "name": "Oblitération",
+    "book": "2038",
+    "summary": "Dégâts = maximum des dés contre hostiles.\n\nInteraction : fonctionne avec Dispersion",
+    "effect": "Ces équipements particulièrement puissants infligent des dégâts considérables aux cibles les moins résistantes.\n\nContre un ennemi de type hostile, ils infligent toujours le résultat maximal des dés de dégâts, comme si chacun des dés avait fait 6. Les dés ne sont simplement pas lancés.\n\nSi l’arme possède l’effet dispersion, chaque cible hostile touchée subit le maximum de dégâts."
+  },
+  {
+    "name": "Orfèvrerie",
+    "book": "Base",
+    "summary": "Ajoute DEX aux dégâts.",
+    "effect": "Lorsque l’arme est utilisée, son utilisateur ajoute sa caractéristique Dextérité (+1 point de dégâts par overdrive) lorsqu’il détermine les dégâts, en plus d’autres caractéristiques déjà incluses.\n\nPour un PNJ, on utilise Masque divisé par 2, arrondi à l’entier supérieur."
+  },
+  {
+    "name": "Pénétrant 5",
+    "book": "Base",
+    "summary": "Ignore 5 CdF.",
+    "effect": "L’arme ignore une certaine valeur de champ de force, 5 représentant cette valeur.\n\nSi la valeur est égale ou supérieure au champ de force de l’ennemi, celui-ci est tout simplement ignoré et les points d’armure, ou les points de santé si la cible n’a pas de PA, sont directement touchés.\n\nCet effet ne fonctionne pas contre le score de bouclier d’une cible."
+  },
+  {
+    "name": "Pénétrant 10",
+    "book": "Base",
+    "summary": "Ignore 10 CdF.",
+    "effect": "L’arme ignore une certaine valeur de champ de force, 10 représentant cette valeur.\n\nSi la valeur est égale ou supérieure au champ de force de l’ennemi, celui-ci est tout simplement ignoré et les points d’armure, ou les points de santé si la cible n’a pas de PA, sont directement touchés.\n\nCet effet ne fonctionne pas contre le score de bouclier d’une cible."
+  },
+  {
+    "name": "Perce armure 20",
+    "book": "Base",
+    "summary": "Ignore 20 PA.",
+    "effect": "L’arme ignore une certaine valeur d’armure, 20 représentant cette valeur.\n\nSi la valeur est égale ou supérieure aux points d’armure de l’ennemi, le total de PA est simplement ignoré et la santé est directement touchée."
+  },
+  {
+    "name": "Perce armure 40",
+    "book": "Base",
+    "summary": "Ignore 40 PA.",
+    "effect": "L’arme ignore une certaine valeur d’armure, 40 représentant cette valeur.\n\nSi la valeur est égale ou supérieure aux points d’armure de l’ennemi, le total de PA est simplement ignoré et la santé est directement touchée."
+  },
+  {
+    "name": "Perce armure 60",
+    "book": "Base",
+    "summary": "Ignore 60 PA.",
+    "effect": "L’arme ignore une certaine valeur d’armure, 60 représentant cette valeur.\n\nSi la valeur est égale ou supérieure aux points d’armure de l’ennemi, le total de PA est simplement ignoré et la santé est directement touchée."
+  },
+  {
+    "name": "Précision",
+    "book": "Base",
+    "summary": "Ajoute TIR aux dégâts.",
+    "effect": "Lorsque l’arme est utilisée, son utilisateur ajoute sa caractéristique Tir (+1 point de dégâts par overdrive) lorsqu’il détermine les dégâts.\n\nPour un PNJ, on utilise Machine divisé par 2, arrondi à l’entier supérieur."
+  },
+  {
+    "name": "Réaction 2",
+    "book": "Base",
+    "summary": "+2 Réaction.",
+    "effect": "L’utilisateur bénéficie d’un bonus en réaction, 2 représentant cette valeur, tant qu’il utilise cette arme ou module.\n\nLes bonus reçus peuvent se cumuler tant que le personnage peut bénéficier de l’effet."
+  },
+  {
+    "name": "Réaction 3",
+    "book": "Base",
+    "summary": "+3 Réaction.",
+    "effect": "L’utilisateur bénéficie d’un bonus en réaction, 3 représentant cette valeur, tant qu’il utilise cette arme ou module.\n\nLes bonus reçus peuvent se cumuler tant que le personnage peut bénéficier de l’effet."
+  },
+  {
+    "name": "Réaction 4",
+    "book": "Base",
+    "summary": "+4 Réaction.",
+    "effect": "L’utilisateur bénéficie d’un bonus en réaction, 4 représentant cette valeur, tant qu’il utilise cette arme ou module.\n\nLes bonus reçus peuvent se cumuler tant que le personnage peut bénéficier de l’effet."
+  },
+  {
+    "name": "Silencieux",
+    "book": "Base",
+    "summary": "Ajoute Discrétion aux dégâts lors : attaque surprise, invisibilité, mode Ghost.\n\nPeut se cumuler avec Ghost.",
+    "effect": "Le personnage ne peut être repéré par un autre personnage parce qu’il utilise son arme.\n\nLorsque cet effet est utilisé pendant une attaque surprise, une invisibilité, un mode Ghost ou un mode Changeling, le score de la caractéristique Discrétion, plus les éventuels OD, du PJ est ajouté aux dégâts. Dans le cas des PNJ, c’est la moitié du score de Masque, plus le score de Masque exceptionnel éventuel, qui est ajouté aux dégâts.\n\nCet effet peut s’ajouter à ceux du mode Ghost et du niveau 2 de l’overdrive de Discrétion."
+  },
+  {
+    "name": "Soumission",
+    "book": "Base",
+    "summary": "Empêche la cible : de se déplacer et d’attaquer d’autres cibles que l'attaquant.\n\nInteraction : dégâts peuvent ignorer CdF et Bouclier si la prise est maintenue.",
+    "effect": "Après avoir touché sa cible avec un effet soumission, l’attaquant peut soumettre sa cible physiquement et l’empêcher de se déplacer ou d’attaquer qui que ce soit d’autre que l’attaquant, et ce au contact.\n\nPour se libérer de l’effet soumission, la cible touchée doit, à son tour, réussir un test base Déplacement ou Combat, aspect Chair ou Bête, dont la difficulté est définie par le nombre de réussites de l’attaquant.\n\nSi la cible n’a pas pu se libérer à son tour, l’attaquant peut maintenir la soumission sans relancer les dés et infliger des dégâts normalement, ou relancer un test d’attaque afin de renforcer sa prise. Si le jet est à nouveau réussi, les dégâts sont infligés sans prendre en considération tout éventuel champ de force ou bouclier, pour les créatures de l’Anathème. L’effet soumission ne peut impacter les colosses."
+  },
+  {
+    "name": "Tir en rafale",
+    "book": "Base",
+    "summary": "Relance tous les dés de dégâts.\n\nLe nouveau résultat est obligatoire.",
+    "effect": "Lors du calcul des dégâts, il est possible, une fois par attaque, d’annuler tous les résultats et de relancer les dés.\n\nLe nouveau résultat remplace le premier et doit être conservé.\n\nIl n’est pas possible de prendre la moyenne des dégâts en utilisant cet effet."
+  },
+  {
+    "name": "Tir en sécurité",
+    "book": "Base",
+    "summary": "Permet de tirer à couvert sans malus.",
+    "effect": "Grâce à une caméra sur le bout du canon ou à un canon déformable, le porteur de l’arme peut tirer tout en bénéficiant des bonus du style à couvert sans subir de malus au tir."
+  },
+  {
+    "name": "Ténébricide",
+    "book": "2038",
+    "summary": "Contre humains : dégâts et violence divisés par 2.",
+    "effect": "L’équipement a été pensé pour anéantir les créatures de l’Anathème et uniquement celles-ci.\n\nContre des ennemis humains, de n’importe quel type, il n’inflige que la moitié de ses dés de dégâts et de ses dés de violence."
+  },
+  {
+    "name": "Ultraviolence",
+    "book": "Base",
+    "summary": "2D6 violence contre bandes Chair < 10.",
+    "effect": "Lorsque l’arme est utilisée contre une bande avec un score d’aspect Chair de moins de 10, la violence de l’arme est augmentée de 2D6."
+  }
+]
