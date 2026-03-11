@@ -94,6 +94,13 @@ function costForD6(totalD6) {
   return (MAX_D6_NORMAL - 2) * 5 + (MAX_D6_ABSOLUTE - MAX_D6_NORMAL) * 10;
 }
 
+function clampNumber(value, min, max, fallback = min) {
+  const num = Number(value);
+
+  if (Number.isNaN(num)) return fallback;
+  return Math.min(max, Math.max(min, num));
+}
+
 export default function App() {
   const [weaponName, setWeaponName] = useState("Arme de prestige");
   const [weaponType, setWeaponType] = useState("contact");
@@ -280,7 +287,8 @@ export default function App() {
               min="2"
               max="15"
               value={damageD6}
-              onChange={(e) => setDamageD6(Number(e.target.value))}
+              onChange={(e) => setDamageD6(clampNumber(e.target.value, 2, 15, 2))}
+              onBlur={(e) => setDamageD6(clampNumber(e.target.value, 2, 15, 2))}
             />
 
             <label className="label">Violence (D6)</label>
@@ -290,7 +298,8 @@ export default function App() {
               min="2"
               max="15"
               value={violenceD6}
-              onChange={(e) => setViolenceD6(Number(e.target.value))}
+              onChange={(e) => setViolenceD6(clampNumber(e.target.value, 2, 15, 2))}
+              onBlur={(e) => setViolenceD6(clampNumber(e.target.value, 2, 15, 2))}
             />
 
             <label className="label">Bonus fixe de dégâts</label>
